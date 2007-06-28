@@ -4,28 +4,28 @@ Perl module for using and building Perl SAX2 XML parsers,
 filters, and drivers.
 
 Runtime requirements:
-  cygwin-1.5.19-4
+  cygwin-1.5.24-4
   perl-5.8.7-5
   perl-XML-NamespaceSupport-1.08-1
 
 Canonical homepage:
-  http://search.cpan.org/~msergeant/XML-SAX/
+  http://search.cpan.org/~grantm/XML-SAX/
 
 Canonical download:
-  http://www.cpan.org/authors/id/M/MS/MSERGEANT/
+  http://www.cpan.org/authors/id/G/GR/GRANTM/
 
 -------------------------------------------
 
 Build instructions:
-  unpack perl-XML-SAX-0.14-1-src.tar.bz2
+  unpack perl-XML-SAX-0.16-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-XML-SAX-0.14-1.cygport all
+  cygport ./perl-XML-SAX-0.16-1.cygport all
 
 This will create:
-  /usr/src/perl-XML-SAX-0.14-1-src.tar.bz2
-  /usr/src/perl-XML-SAX-0.14-1.tar.bz2
+  /usr/src/perl-XML-SAX-0.16-1-src.tar.bz2
+  /usr/src/perl-XML-SAX-0.16-1.tar.bz2
 
 -------------------------------------------
 
@@ -56,10 +56,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/XML/SAX/PurePerl/XMLDecl.pm
   /usr/lib/perl5/vendor_perl/5.8/XML/SAX/placeholder.pl
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/SAX/.packlist
-  /usr/share/doc/Cygwin/perl-XML-SAX-0.14.README
-  /usr/share/doc/perl-XML-SAX-0.14/Changes
-  /usr/share/doc/perl-XML-SAX-0.14/LICENSE
-  /usr/share/doc/perl-XML-SAX-0.14/README
+  /usr/share/doc/Cygwin/perl-XML-SAX-0.16.README
+  /usr/share/doc/perl-XML-SAX-0.16/Changes
+  /usr/share/doc/perl-XML-SAX-0.16/LICENSE
+  /usr/share/doc/perl-XML-SAX-0.16/README
   /usr/share/man/man3/XML.SAX.3pm.gz
   /usr/share/man/man3/XML.SAX.DocumentLocator.3pm.gz
   /usr/share/man/man3/XML.SAX.Intro.3pm.gz
@@ -71,6 +71,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.16-1 -----
+Version bump.
 
 ----- version 0.14-1 -----
 Version bump.
