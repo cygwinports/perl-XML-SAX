@@ -1,5 +1,0 @@
-category: Perl
-requires: perl perl-XML-NamespaceSupport
-sdesc: "Perl module for using SAX2 XML"
-ldesc: "Perl module for using and building Perl SAX2 XML parsers,
-filters, and drivers."

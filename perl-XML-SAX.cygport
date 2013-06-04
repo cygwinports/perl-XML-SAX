@@ -1,0 +1,10 @@
+CPAN_AUTHOR=grantm
+inherit perl
+
+NAME="perl-XML-SAX"
+VERSION=0.99
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl module for using SAX2 XML"
+DESCRIPTION="Perl module for using and building Perl SAX2 XML parsers,
+filters, and drivers."
