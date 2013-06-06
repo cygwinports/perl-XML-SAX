@@ -3,8 +3,23 @@ inherit perl
 
 NAME="perl-XML-SAX"
 VERSION=0.99
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl module for using SAX2 XML"
 DESCRIPTION="Perl module for using and building Perl SAX2 XML parsers,
 filters, and drivers."
+
+PATCH_URI="0.99-parser-postinst.patch"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	yes n | perl_compile
+}
+
+src_install() {
+	cd ${B}
+	perl_install
+	perl_postinst
+	perl_sax_parser_register XML::SAX::PurePerl
+}
